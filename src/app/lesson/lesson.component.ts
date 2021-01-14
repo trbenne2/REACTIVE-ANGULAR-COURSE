@@ -1,11 +1,17 @@
+<<<<<<< HEAD
 import {Component, Input, OnInit} from '@angular/core';
 import {Lesson} from '../model/lesson';
+=======
+import { Component, Input, OnInit } from "@angular/core";
+import { Lesson } from "../model/lesson";
+>>>>>>> main
 
 @Component({
-  selector: 'lesson',
-  templateUrl: './lesson.component.html',
-  styleUrls: ['./lesson.component.css']
+  selector: "lesson",
+  templateUrl: "./lesson.component.html",
+  styleUrls: ["./lesson.component.css"],
 })
+<<<<<<< HEAD
 export class LessonComponent implements OnInit {
 
   @Input()
@@ -17,4 +23,9 @@ export class LessonComponent implements OnInit {
 
   }
 
+=======
+export class LessonComponent {
+  @Input()
+  lesson: Lesson;
+>>>>>>> main
 }

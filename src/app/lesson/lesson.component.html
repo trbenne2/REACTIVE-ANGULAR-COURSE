@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <div class="lesson-detail">
 
@@ -12,4 +13,17 @@
     </iframe>
 
 
+=======
+<div class="lesson-detail">
+  <h3>{{ lesson.description }}</h3>
+  <h5>Duration: {{ lesson.duration }}</h5>
+
+  <iframe
+    width="400"
+    height="220"
+    frameborder="0"
+    allowfullscreen
+    [src]="'https://www.youtube.com/embed/' + lesson?.videoId | safeUrl"
+  ></iframe>
+>>>>>>> main
 </div>
